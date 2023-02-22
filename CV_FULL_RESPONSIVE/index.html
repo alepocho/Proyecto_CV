@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae Full Responsive</title>
     <link rel="stylesheet" type="text/css" href="cv_css.css" />
-    <link rel="stylesheet" media="(max-width: 799px)" href="cv_css900p.css" />
+    <link rel="stylesheet" media="(max-width: 899px)" href="cv_css900p.css" />
 
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAlZXEAAMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiAAACAAAAAAIAAAIAAiIiAgAAAgAAAAACAAACAiIiIgIAAAIAAAAAAgAAAgIiIgACAAACAAABEQIAAAICIgERAgAAAgAAARECAAACAiIBEQIAAAICIgIiAgAAAgAAAAACAAACIiIiIiIAAAAAAAAAAAD//wAA4AMAAO/7AADuCwAA7/sAAOgLAADv+wAA6DsAAO+LAADoiwAA74sAAOiLAADoiwAA7/sAAOADAAD//wAA" rel="icon" type="image/x-icon" />
     
@@ -15,6 +15,7 @@
 
 
 <body>
+    <script src="cv_jscript.js"></script>
  
 <header>
 <div class="Nombre_titulo">               
@@ -39,7 +40,7 @@
     <h4>Dirección</h4>
     <ul><i class="fa-solid fa-house"></i> 2626 W 6th St</ul>
     <h4>github</h4>
-    <ul><i class="fa-brands fa-github"></i> </ul>
+    <ul><i class="fa-brands fa-github"></i> cstanley.github.io </ul>
     <h4>Fecha de nacimiento</h4>
     <ul><i class="fa-sharp fa-regular fa-calendar-days"></i> 07/07/1984</ul>
 
@@ -58,14 +59,7 @@
     </p>
 </div>
 
-<div class="Habilidades">
-    <h3><i class="fa-solid fa-code"></i> Hablidades </h3>
-    <li>Javascript</li>
-    <li>CSS</li>
-    <li>HTML</li>
 
-
-</div>
 
 <div class="Experiencia">
 <h3><i class="fa-solid fa-code"></i> Experiencia </h3>
@@ -79,6 +73,20 @@
 <li>2015-2019 > Universidad de Silicon BAires</li>
 <li>2008-2014 > Escuelas Técnicas Raggio</li>
 <li>2000-2007 > Colegio San José de San Martín</li>
+</div>
+
+<div class="Habilidades">
+    <h3><i class="fa-solid fa-code"></i> Hablidades </h3>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li> 
+    <button type="button" id="boton"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+   Presionar para mostrar la hora.</button>
+    
+    <p id="demo"></p>
+    
+
 </div>
 
 
