@@ -3,13 +3,13 @@
 
 
 
-header {
+encabezado {
     margin: 0px;
     width: 100%;
     min-height: 400px;
   }
    
-  aside {
+  lateral {
     width:100%;    
     min-height: 700px; 
   }
