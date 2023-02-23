@@ -44,6 +44,15 @@
     font-weight:lighter
    }
 
+   li {
+    padding: 5px;
+    margin: 3px;
+   }
+  
+button {
+  margin-left: 10px;
+  
+}
   
  body {
 
@@ -98,6 +107,13 @@
     padding: 3px;
     text-align: left;
     
+    
+  }
+
+  .info {
+    display: none;
+    font-size: 16px;
+    text-align: center;
     
   }
 
