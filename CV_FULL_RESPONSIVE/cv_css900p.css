@@ -1,12 +1,11 @@
 
-body {
- width:100%;
- margin: 1px;
-}
+
+
+
 
 header {
-    width:100%;
-    float: left;    
+    margin: 0px;
+    width: 100%;
     min-height: 400px;
   }
    
@@ -16,9 +15,20 @@ header {
   }
 
 
-  /**li {
+ li {
     font-size: 12px;
     
-  } */
+  } 
 
-  
+  p {
+
+    font-size: 14px;
+  }
+
+  ul {
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 2px;
+    font-weight:lighter
+   }
