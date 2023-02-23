@@ -101,10 +101,6 @@
     
   }
 
-  .perfil {
-   
-
-  }
   
 
   a:link {
@@ -132,7 +128,39 @@
   }
 
 
+@media (max-width:900px)    
+  {
+   
+    encabezado {
+      margin: 0px;
+      width: 100%;
+      min-height: 400px;
+    }
+     
+    lateral {
+      width:100%;    
+      min-height: 700px; 
+    }
   
+  
+   li {
+      font-size: 12px;
+      
+    } 
+  
+    p {
+  
+      font-size: 14px;
+    }
+  
+    ul {
+      font-size: 13px;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      padding-left: 2px;
+      font-weight:lighter
+     }
+  }
 
 
     
