@@ -151,11 +151,13 @@ button {
       margin: 0px;
       width: 100%;
       min-height: 400px;
+      min-width: 225px;
     }
      
     lateral {
       width:100%;    
-      min-height: 700px; 
+      min-height: 700px;
+      min-width: 225px 
     }
   
   
